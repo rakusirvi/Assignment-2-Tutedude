@@ -1,0 +1,111 @@
+/*Nav bar part */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.1rem;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.155);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav #logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #007bff;
+}
+
+#center {
+  display: flex;
+  gap: 20px;
+}
+
+#center a {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.744);
+  transition: 0.2s ease;
+}
+
+#center a:hover {
+  color: rgba(0, 21, 255, 0.678);
+}
+
+#nav #username a {
+  background-color: rgba(0, 162, 255, 0.234);
+  padding: 0.9rem 1.3rem;
+  border-radius: 5px;
+  color: #007bff;
+  transition: 0.5s ease;
+}
+
+#username #user:hover {
+  background-color: rgba(0, 162, 255, 0.768);
+  border-radius: 5px;
+  color: rgb(252, 252, 252);
+}
+
+/* Hero part */
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  padding: 0 8%;
+}
+
+#left-hero {
+  max-width: 50%;
+}
+
+#left-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #222;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#left-hero h1 span {
+  color: #007bff;
+}
+
+#right-hero img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 40vw;
+}
+
+#left-hero p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  max-width: 90%;
+}
+
+#Book-button {
+  background-color: #007bff;
+  border: none;
+  padding: 0.9rem 0.9rem;
+  border-radius: 7px;
+  transition: 0.5s ease;
+  color: white;
+  font-size: 1rem;
+}
+
+#Book-button:hover {
+  background-color: #003c7b;
+}
